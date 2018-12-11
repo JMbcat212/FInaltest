@@ -5,6 +5,9 @@
 
 using namespace std;
 
+/** @brief Counts the characters in the string
+ * @param string pName
+ */
 int countChar(string pName){
 	return pName.length();
 }

@@ -4,6 +4,9 @@
 #include "countchar.h"
 using namespace std;
 
+/** @brief Outputs countLine and CountChar
+ * @param None
+ */
 int main(){
 	int output1 = countLine("Athens");
 	int output2 = countChar("Ohio University");
