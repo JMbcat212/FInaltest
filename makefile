@@ -14,3 +14,8 @@ build:
 
 doc:
 	doxygen .
+
+check: count
+	cppcheck $<
+	valgrind ./$<
+
